@@ -1,0 +1,22 @@
+<templateSet group="Android">
+  <template name="key" value="private static final String KEY_$value$ = &quot;KEY_$value$&quot;;" description="声明Bundle的Key" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="tag" value="private static final String TAG_$value$ = &quot;TAG_$value$&quot;;" description="Define a string tag" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="prm" value="private $value$ m$value$;" description="以类名作为成员变量的名称, 并且在名称头部追加前缀m" toReformat="true" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="Extr" value="private static final String EXTR_$value$ = &quot;EXTR_$value$&quot;;" description="extr" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

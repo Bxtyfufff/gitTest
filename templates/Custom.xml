@@ -1,0 +1,13 @@
+<templateSet group="Custom">
+  <template name="doc" value="/**&#10; * $describe$&#10; *&#10; * @author cjx $DATE$&#10; */" description="add doc comment" toReformat="false" toShortenFQNames="true">
+    <variable name="describe" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="ifnn" value="if($value$ != null)" description="if (xxx!=null)" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

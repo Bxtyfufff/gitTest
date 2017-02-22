@@ -1,0 +1,15 @@
+<templateSet group="iterations">
+  <template name="forj" value="for(int $INDEX$ = $LIMIT$.size()-1; $INDEX$ &gt;=0; $INDEX$--) {&#10;    $END$&#10;}" description="Create iteration inverse loop，倒序遍历" toReformat="true" toShortenFQNames="true">
+    <variable name="INDEX" expression="suggestIndexName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="LIMIT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="GROOVY_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fori" value="for(int $INDEX$ = 0; $INDEX$ &lt; $LIMIT$; $INDEX$++) {&#10;    $END$&#10;}" description="Create iteration loop" toReformat="false" toShortenFQNames="true">
+    <variable name="INDEX" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LIMIT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

@@ -1,0 +1,50 @@
+<templateSet group="AndroidLog">
+  <template name="logd" value="Debug.d(TAG, &quot;$CLASS_NAME$.$METHOD_NAME$: $content$&quot;);" description="LogUtil.d(TAG, String)" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="loge" value="Debug.e(TAG, &quot;$CLASS_NAME$.$METHOD_NAME$: $content$&quot;);" description="LogUtil.e(TAG, String, Exception)" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="logi" value="Debug.i(TAG, &quot;$CLASS_NAME$.$METHOD_NAME$: $content$&quot;);" description="LogUtil.i(TAG, String)" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="logw" value="Debug.w(TAG, &quot;$CLASS_NAME$.$METHOD_NAME$: &quot;+&quot;$content$&quot;, $exception$);" description="Log.w(TAG, String, Exception)" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="exception" expression="" defaultValue="e" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="wtf" value="android.util.Log.wtf(TAG, &quot;$CLASS_NAME$.$METHOD_NAME$: $content$&quot;, $exception$);" description="Log.wtf(TAG, String, Exception)" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="exception" expression="" defaultValue="e" alwaysStopAt="false" />
+    <context />
+  </template>
+  <template name="logr" value="Debug.d(TAG, &quot;$CLASS_NAME$.$METHOD_NAME$() returned: &quot; +  $result$);" description="Log result of this method" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="result" expression="variableOfType(methodReturnType())" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="logt" value="private static final String TAG = $className$.class.getSimpleName();" description="A static logtag with your current classname" toReformat="true" toShortenFQNames="true">
+    <variable name="className" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="logm" value="Debug.d(TAG, &quot;$CLASS_NAME$.$METHOD_NAME$() called with: &quot; +  $args$);" description="Log method name and its arguments" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="args" expression="groovyScript(&quot;'\&quot;' + _1.collect { it + ' = [\&quot; + ' + it + ' + \&quot;]'}.join(', ') + '\&quot;'&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <context />
+  </template>
+</templateSet>

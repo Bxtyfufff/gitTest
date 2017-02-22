@@ -1,0 +1,14 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="test">
+      <action id="GotoDeclaration" />
+      <action id="GotoDeclaration" />
+      <action id="Back" />
+      <action id="Back" />
+      <action id="EditorPaste" />
+      <action id="EditorPaste" />
+      <action id="EditorPaste" />
+      <action id="$Undo" />
+    </macro>
+  </component>
+</application>
