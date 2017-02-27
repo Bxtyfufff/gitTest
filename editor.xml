@@ -2,4 +2,9 @@
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="" />
   </component>
+  <component name="TodoConfiguration">
+    <filter name="fixme">
+      <pattern index="1" />
+    </filter>
+  </component>
 </application>
