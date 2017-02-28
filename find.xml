@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="videoSticker" />
-    <option name="defaultScopeName" value="videoSticker" />
-    <option name="SEARCH_SCOPE" value="videoSticker" />
+    <option name="customScope" value="Project 'BeautyCamera-Gradle'" />
+    <option name="defaultScopeName" value="Project 'BeautyCamera-Gradle'" />
+    <option name="SEARCH_SCOPE" value="Project 'BeautyCamera-Gradle'" />
   </component>
 </application>
