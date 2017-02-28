@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="res" />
-    <option name="defaultScopeName" value="res" />
-    <option name="SEARCH_SCOPE" value="res" />
+    <option name="customScope" value="Project 'BeautyCamera-Gradle'" />
+    <option name="defaultScopeName" value="Project 'BeautyCamera-Gradle'" />
+    <option name="SEARCH_SCOPE" value="Project 'BeautyCamera-Gradle'" />
   </component>
 </application>
