@@ -36,4 +36,8 @@
     <variable name="result" expression="variableOfType(methodReturnType())" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="logt" value="private static final String TAG = $className$.class.getSimpleName();" description="A static logtag with your current classname" toReformat="true" toShortenFQNames="true">
+    <variable name="className" expression="groovyScript(&quot;_1.take(Math.min(23, _1.length()));&quot;, className())" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
 </templateSet>
