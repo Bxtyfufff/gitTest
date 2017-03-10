@@ -43,7 +43,7 @@
     <variable name="className" expression="groovyScript(&quot;_1.take(Math.min(23, _1.length()));&quot;, className())" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="mm" value="+ $message$.toString() + &quot;&lt;==$message$ , &quot;" toReformat="false" toShortenFQNames="true">
+  <template name="mm" value="+ $message$ + &quot;&lt;==$message$ , &quot;" toReformat="false" toShortenFQNames="true">
     <variable name="message" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
