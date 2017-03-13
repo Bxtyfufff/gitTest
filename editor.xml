@@ -4,12 +4,12 @@
   </component>
   <component name="TodoConfiguration">
     <filter name="fixme">
-      <pattern index="1" />
+      <pattern index="-1" />
       <pattern index="0" />
     </filter>
     <filter name="todo">
+      <pattern index="-1" />
       <pattern index="0" />
-      <pattern index="1" />
     </filter>
   </component>
 </application>
