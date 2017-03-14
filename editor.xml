@@ -3,12 +3,14 @@
     <option name="USE_SOFT_WRAPS" value="" />
   </component>
   <component name="TodoConfiguration">
-    <filter name="fixme">
-      <pattern index="-1" />
-      <pattern index="0" />
-    </filter>
-    <filter name="todo">
-      <pattern index="-1" />
+    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btodo\b.*cjx.*">
+      <option name="FOREGROUND" value="a8c023" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
+    <filter name="fixme" />
+    <filter name="todo" />
+    <filter name="cjx todo">
       <pattern index="0" />
     </filter>
   </component>
