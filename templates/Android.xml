@@ -4,4 +4,18 @@
     <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="fdv" value="$view$ = $root$.findViewById(R.id.$resId$);" description="view.findView" toReformat="false" toShortenFQNames="true">
+    <variable name="view" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="root" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="resId" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
 </templateSet>
