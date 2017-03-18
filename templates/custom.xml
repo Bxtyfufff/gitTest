@@ -4,12 +4,6 @@
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
     </context>
   </template>
   <template name="ci" value="public static final int $VAR$ = $VALUE$;&#10;" description="consant int" toReformat="false" toShortenFQNames="true">
@@ -17,12 +11,6 @@
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
     </context>
   </template>
   <template name="ct" value="public static final $TYPE$ $VAR$ = $VALUE$;" description="constant" toReformat="false" toShortenFQNames="true">
@@ -31,12 +19,6 @@
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
     </context>
   </template>
   <template name="ifle" value="if ($group$ != null &amp;&amp; !$group$.isEmpty()) {&#10;    $content$&#10;}" description="if list is empty" toReformat="false" toShortenFQNames="true">
@@ -44,35 +26,11 @@
     <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
     </context>
   </template>
   <template name="mdf" value="// modify by @author cjx $YEAR$ //TODO 描述" description="modify by author" toReformat="false" toShortenFQNames="true">
     <variable name="YEAR" expression="date()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="true" />
-      <option name="HTML" value="true" />
-      <option name="XSL_TEXT" value="true" />
-      <option name="XML" value="true" />
-      <option name="XML_TEXT" value="true" />
-      <option name="JSON" value="true" />
-      <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
-      <option name="GROOVY" value="true" />
-      <option name="GROOVY_EXPRESSION" value="true" />
-      <option name="GROOVY_STATEMENT" value="true" />
-      <option name="GROOVY_DECLARATION" value="true" />
-      <option name="MARKDOWN" value="true" />
       <option name="OTHER" value="true" />
     </context>
   </template>
