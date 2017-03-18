@@ -72,14 +72,6 @@
       <option name="GROOVY_EXPRESSION" value="true" />
       <option name="GROOVY_STATEMENT" value="true" />
       <option name="GROOVY_DECLARATION" value="true" />
-      <option name="c" value="true" />
-      <option name="OC_DECLARATION_C" value="true" />
-      <option name="OC_STATEMENT_C" value="true" />
-      <option name="OC_EXPRESSION_C" value="true" />
-      <option name="cpp" value="true" />
-      <option name="OC_DECLARATION_CPP" value="true" />
-      <option name="OC_STATEMENT_CPP" value="true" />
-      <option name="OC_EXPRESSION_CPP" value="true" />
       <option name="MARKDOWN" value="true" />
       <option name="OTHER" value="true" />
     </context>
