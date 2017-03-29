@@ -13,6 +13,7 @@
           <option name="name" value="default" />
           <option name="pathToConfigFileJava" value="E:/codeFormat/Meitu_CodeFormattet_1.1.7.xml" />
           <option name="selectedJavaProfile" value="Meitu_CodeFormatter" />
+          <option name="useForLiveTemplates" value="true" />
           <option name="useOldEclipseJavaFormatter" value="true" />
         </Settings>
       </list>
