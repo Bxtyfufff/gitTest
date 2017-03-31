@@ -28,8 +28,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="mdf" value="// modify by @author cjx $YEAR$ //TODO 描述" description="modify by author" toReformat="false" toShortenFQNames="true">
-    <variable name="YEAR" expression="date()" defaultValue="" alwaysStopAt="true" />
+  <template name="mdf" value="// modify by @cjx $YEAR$ $TODO$" description="modify by author" toReformat="false" toShortenFQNames="true">
+    <variable name="YEAR" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <variable name="TODO" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="OTHER" value="true" />
     </context>
