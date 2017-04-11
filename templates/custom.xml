@@ -1,7 +1,6 @@
 <templateSet group="custom">
-  <template name="cs" value="public static final String $VAR$ = $VALUE$;" description="constant string" toReformat="false" toShortenFQNames="true">
+  <template name="cs" value="public static final String $VAR$ = &quot;$VAR$&quot;;" description="constant string" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
