@@ -44,9 +44,7 @@
         </PlaceSettings>
       </entry>
       <entry key="Default">
-        <PlaceSettings>
-          <option name="SHOW_LINE_NUMBERS" value="false" />
-        </PlaceSettings>
+        <PlaceSettings />
       </entry>
       <entry key="DirDiff">
         <PlaceSettings />
