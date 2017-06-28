@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'BeautyCamera-Gradle'" />
-    <option name="defaultScopeName" value="Project 'BeautyCamera-Gradle'" />
+    <option name="customScope" value="Directory '[beauty_camera] - ...\beauty_camera\src\com\meitu\myxj\ar'" />
+    <option name="defaultScopeName" value="Directory '[beauty_camera] - ...\beauty_camera\src\com\meitu\myxj\ar'" />
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Project 'BeautyCamera-Gradle'" />
+    <option name="SEARCH_SCOPE" value="Directory '[beauty_camera] - ...\beauty_camera\src\com\meitu\myxj\ar'" />
     <option name="FILE_MASK" value="*.java" />
     <recentFileMasks>
       <mask>*.properties</mask>
