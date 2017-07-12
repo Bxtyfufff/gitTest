@@ -65,4 +65,11 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="timl" value="TimingLogger logger = new TimingLogger(&quot;cjx$TAG$&quot;, &quot;$METHOD_NAME$&quot;);" description="timingLogger" toReformat="false" toShortenFQNames="true">
+    <variable name="TAG" expression="camelCase(String)" defaultValue="cjx" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
