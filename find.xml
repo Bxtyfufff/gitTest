@@ -2,6 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="Directory '[beauty_camera] - ...\beauty_camera\src\com\meitu\myxj\ar'" />
     <option name="defaultScopeName" value="Directory '[beauty_camera] - ...\beauty_camera\src\com\meitu\myxj\ar'" />
+    <option name="localWholeWordsOnly" value="true" />
+    <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="Directory '[beauty_camera] - ...\beauty_camera\src\com\meitu\myxj\ar'" />
     <recentFileMasks>
       <mask>*.properties</mask>
