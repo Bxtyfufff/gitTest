@@ -3,63 +3,47 @@
     <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
     <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="next" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_STATEMENT" value="true" />
-    </context>
+    <context />
   </template>
   <template name="loge" value="Debug.e(TAG, &quot;$METHOD_NAME$: $content$&quot; $exception$);" description="Log.e(TAG, String, Exception)" toReformat="true" toShortenFQNames="true">
     <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
     <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="exception" expression="" defaultValue="e" alwaysStopAt="false" />
-    <context>
-      <option name="JAVA_STATEMENT" value="true" />
-    </context>
+    <context />
   </template>
   <template name="logi" value="Debug.i(TAG, &quot;$METHOD_NAME$: $content$&quot; $next$);" description="Log.i(TAG, String)" toReformat="true" toShortenFQNames="true">
     <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
     <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="next" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_STATEMENT" value="true" />
-    </context>
+    <context />
   </template>
   <template name="logw" value="Debug.w(TAG, &quot;$METHOD_NAME$: $content$&quot; $exception$);" description="Log.w(TAG, String, Exception)" toReformat="true" toShortenFQNames="true">
     <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
     <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="exception" expression="" defaultValue="e" alwaysStopAt="false" />
-    <context>
-      <option name="JAVA_STATEMENT" value="true" />
-    </context>
+    <context />
   </template>
   <template name="wtf" value="Debug.wtf(TAG, &quot;$METHOD_NAME$: $content$&quot;, $exception$);" description="Log.wtf(TAG, String, Exception)" toReformat="true" toShortenFQNames="true">
     <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
     <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="exception" expression="" defaultValue="e" alwaysStopAt="false" />
-    <context>
-      <option name="JAVA_STATEMENT" value="true" />
-    </context>
+    <context />
   </template>
   <template name="logm" value="Debug.d(TAG, $content$ $next$);" description="Log method name and its arguments" toReformat="true" toShortenFQNames="true">
     <variable name="content" expression="groovyScript(&quot;def params = _2.collect {it + ' = [\&quot; + ' + it + ' + \&quot;]'}.join(', '); return '\&quot;' + _1  +  ' '+params + '\&quot;'&quot;, methodName(), methodParameters())" defaultValue="" alwaysStopAt="false" />
     <variable name="next" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_STATEMENT" value="true" />
-    </context>
+    <context />
   </template>
   <template name="logr" value="Debug.d(TAG, &quot;$METHOD_NAME$() returned: &quot; +  $result$);" description="Log result of this method" toReformat="true" toShortenFQNames="true">
     <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
     <variable name="result" expression="variableOfType(methodReturnType())" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_STATEMENT" value="true" />
-    </context>
+    <context />
   </template>
   <template name="logt" value="private static final String TAG = $className$.class.getSimpleName();" description="A static logtag with your current classname" toReformat="true" toShortenFQNames="true">
     <variable name="className" expression="groovyScript(&quot;_1.take(Math.min(23, _1.length()));&quot;, className())" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_DECLARATION" value="true" />
-    </context>
+    <context />
   </template>
-  <template name="mm" value="+ $message$ + &quot;&lt;==$message$ , &quot;" toReformat="false" toShortenFQNames="true">
+  <template name="mm" value="+ $message$ + &quot;&lt;==$message$ , &quot;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="message" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
