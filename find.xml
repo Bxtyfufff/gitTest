@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '[beauty_camera] - ...\beauty_camera\src\com\meitu\myxj\ar'" />
-    <option name="defaultScopeName" value="Directory '[beauty_camera] - ...\beauty_camera\src\com\meitu\myxj\ar'" />
-    <option name="SEARCH_SCOPE" value="Directory '[beauty_camera] - ...\beauty_camera\src\com\meitu\myxj\ar'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
