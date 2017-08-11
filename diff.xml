@@ -28,6 +28,9 @@
   </component>
   <component name="TextDiffSettings">
     <option name="PLACES_MAP">
+      <entry key="ApplyPatch">
+        <PlaceSettings />
+      </entry>
       <entry key="Default">
         <PlaceSettings />
       </entry>
