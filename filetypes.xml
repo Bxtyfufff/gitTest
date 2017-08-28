@@ -5,6 +5,8 @@
       <mapping pattern="afd" type="PLAIN_TEXT" />
       <mapping pattern="dfas" type="PLAIN_TEXT" />
       <mapping ext="rawproto" type="PLAIN_TEXT" />
+      <mapping ext="plist" type="PLAIN_TEXT" />
+      <mapping ext="obj" type="PLAIN_TEXT" />
       <mapping ext="config" type="PLAIN_TEXT" />
       <mapping ext="keystore" type="PLAIN_TEXT" />
     </extensionMap>
