@@ -8,7 +8,6 @@
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
     <option name="ADD_MEMBER_IMPORTS_ON_THE_FLY" value="false" />
     <EXCLUDED_PACKAGE NAME="" />
-    <EXCLUDED_PACKAGE NAME="com.igexin.push.core.g.R" />
   </component>
   <component name="JavaCodeFoldingSettings">
     <option name="COLLAPSE_ONE_LINE_METHODS" value="false" />
